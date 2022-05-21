@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar bg-primary">
+    <nav class="navv navbar bg-primary p-1 fs-6">
       <div class="text-white">
         <span class="ms-4">Folge uns auf</span>
         <i class="ms-5 me-3 fa-brands fa-youtube"></i>
@@ -63,5 +63,8 @@ defineProps({
 <style>
 .logo {
   width: 100px;
+}
+.navv {
+  height: 50px;
 }
 </style>

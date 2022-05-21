@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Nightlife",
+    "pic": "/images/events/4-1-jenseits-40287.jpg",
+    "text": "Die Clubszene in Wien steht für Partys mit hoher musikalischer Qualität. Die Partys reichen von Schick bis Underground. Speziell elektronische Musik aus Wien sorgt international für Furore."
+  },
+  {
+    "id": 2,
+    "title": "Szenelokale",
+    "pic": "/images/events/gruppe-guerilla-bakery.jpg",
+    "text": "Lokale mit Design bieten mehr als nur gutes Essen und laden auch zum After-Dinner-Drink ein. Oder man wechselt in eine der vielen Cocktailbars. Und das Kaffeehaus zeigt sich in einer modernen Variante."
+  },
+  {
+    "id": 3,
+    "title": "Trend-Shopping",
+    "pic": "/images/events/4-3-goldenes-quartier-2-25072.jpg",
+    "text": "Ein Streifzug durch Wiens angesagte Einkaufsviertel bringt so manchen Geheimtipp zum Vorschein."
+  },
+  {
+    "id": 4,
+    "title": "Luxus in Wien",
+    "pic": "/images/events/5-4-beleuchtung-goldenes-quartier-40564.jpg",
+    "text": "Wien hält für den luxusverwöhnten Gast allerlei Überraschungen bereit. Und es wäre nicht Wien, würde Extravagantes nicht von einem Hauch typischem Charme begleitet werden."
+  },
+  {
+    "id": 5,
+    "title": "Sport & Wellness",
+    "pic": "/images/events/51265-alt-erlaa-freibad-dach.jpg",
+    "text": "Wandern im Wienerwald, Joggen im Prater, Radfahren auf der Donauinsel und Schwimmen in historischem Ambiente sind nur einige der Sportmöglichkeiten in Wien."
+  }
+]
