@@ -1,12 +1,12 @@
 <template>
   <div class="">
     <div class="w-75 m-auto">
-      <div class="fs-1 mt-4 text-danger fw-bold mb-5">
-        <a href="" class="icon-lightGray">
-          <i class="fa-regular fa-circle-left" @click="$router.push('/events')"></i>
-        </a>
+      <div class="fs-1 mt-4 text-danger fw-bold mb-4">
+        <router-link to="/events" class="icon-lightGray">
+          <i class="fa-regular fa-circle-left"></i>
+        </router-link>
       </div>
-      <h2 class="text-danger f-black mb-4">{{ event.title }}</h2>
+      <h2 class="text-danger f-black mb-3">{{ event.title }}</h2>
       <img class="img-fluid d-flex justify-content-center" :src="event.pic" alt="image" />
       <div class="mt-3">
         <span>{{ event.text }}</span>
@@ -41,5 +41,8 @@ onMounted(() => {
 }
 .text-gray {
   color: #55595c !important;
+}
+.icon-lightGray {
+  color: lightgrey;
 }
 </style>

@@ -15,7 +15,6 @@
   </div>
   <RouterView />
 </template>
-<script setup></script>
 
 <style scope>
 .intro-text {

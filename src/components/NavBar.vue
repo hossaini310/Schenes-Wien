@@ -15,7 +15,9 @@
     </nav>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <RouterLink class="nav-link" to="/"><img class="logo" :src="Logo" alt="logo" /></RouterLink>
+        <router-link class="nav-link" to="/"
+          ><img class="logo" :src="Logo" alt="logo"
+        /></router-link>
 
         <button
           class="navbar-toggler"
@@ -33,16 +35,16 @@
           <ul class="navbar-nav me-auto">
             <li class="nav-item"></li>
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/sightseeing">sightseeing</RouterLink>
+              <router-link class="nav-link" to="/sightseeing">sightseeing</router-link>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/events">Events</RouterLink>
+              <router-link class="nav-link" to="/events">Events</router-link>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/shopping">Shopping</RouterLink>
+              <router-link class="nav-link" to="/shopping">Shopping</router-link>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/lifestyle">Lifestyle & Szene</RouterLink>
+              <router-link class="nav-link" to="/lifestyle">Lifestyle & Szene</router-link>
             </li>
           </ul>
         </div>
@@ -53,7 +55,6 @@
 
 <script setup>
 import Logo from '/images/logo.svg';
-import { RouterLink } from 'vue-router';
 
 defineProps({
   name: String,

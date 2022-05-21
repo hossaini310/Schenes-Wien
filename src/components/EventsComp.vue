@@ -5,10 +5,10 @@
         <div class="fs-2 text-danger text-left f-black">Events</div>
         <div class="mt-3" v-for="event in store.events" :key="event.id">
           <span>
-            <RouterLink
+            <router-link
               class="text-gray"
               :to="`/events/${event.title.toLowerCase().split(' ').join('').split('-').join('')}`"
-              >{{ event.title }}</RouterLink
+              >{{ event.title }}</router-link
             >
           </span>
         </div>
@@ -34,7 +34,6 @@
 
 <script setup>
 import { useSchenesStore } from '@/stores/schenesStore';
-import { RouterLink } from 'vue-router';
 const store = useSchenesStore();
 </script>
 
