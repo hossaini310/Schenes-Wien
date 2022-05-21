@@ -6,7 +6,7 @@
         <span class="text-center intro-text">Sightseeing in <br />Wien</span>
       </div>
     </div>
-    <div class="container-fluid mt-4">
+    <div class="container mt-4">
       <p>
         Es gibt viel zu sehen: Vom gotischen Stephansdom über die imperiale Hofburg bis zu
         Jugendstil, vom Barockschloss Schönbrunn über spannende Museen bis zu aktueller Architektur

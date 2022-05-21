@@ -2,7 +2,7 @@
   <div class="container mt-4" id="letters">
     <p>
       Hier geht es zu unserem heutigen
-      <router-link to="/sightseeing" class="text-danger">Highlight!</router-link>
+      <router-link to="/sightseeing" class="text-danger txt-deco">Highlight!</router-link>
     </p>
     <A2zCardsComp></A2zCardsComp>
   </div>
@@ -17,5 +17,13 @@ import A2zCardsComp from '@/components/A2zCardsComp.vue';
 }
 .icon-lightGray {
   color: lightgrey;
+}
+
+.txt-deco {
+  text-decoration: underline;
+}
+.txt-deco:hover {
+  text-decoration: none;
+  font-weight: bold;
 }
 </style>

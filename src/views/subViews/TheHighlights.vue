@@ -2,7 +2,7 @@
   <div class="container">
     <p>
       Hier findest du die wichtigsten
-      <router-link to="/sightseeing/a2z" class="text-danger">
+      <router-link to="/sightseeing/a2z" class="text-danger txt-deco">
         Sehenswürdigkeiten in Wien von A bis Z
       </router-link>
       auf einen Blick.
@@ -30,3 +30,12 @@
     </p>
   </div>
 </template>
+<style scope>
+.txt-deco {
+  text-decoration: underline;
+}
+.txt-deco:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>

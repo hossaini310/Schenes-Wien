@@ -43,4 +43,9 @@ const store = useSchenesStore();
 .text-gray {
   color: #55595c !important;
 }
+
+.text-gray:hover {
+  color: #d9534f !important;
+  font-weight: bold;
+}
 </style>
