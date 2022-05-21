@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-sm">
-        <div class="fs-2 text-danger text-left f-black">Events</div>
+      <div class="col-sm mb-4">
+        <div class="fs-2 text-danger f-black">Events</div>
         <div class="mt-3" v-for="event in store.events" :key="event.id">
           <span>
             <router-link
@@ -13,9 +13,8 @@
           </span>
         </div>
       </div>
-
-      <div class="w-75">
-        <div class="mb-4">
+      <div class="w-75 m-auto">
+        <div class="mb-4 mt-3">
           <img
             class="img-fluid"
             src="/images/events/40995-strandbar-herrmann-donaukanal-sommer-outdoor-abendstimmung.jpg"
