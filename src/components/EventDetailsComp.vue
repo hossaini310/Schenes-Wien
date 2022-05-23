@@ -27,7 +27,6 @@ let event = ref({});
 
 onMounted(() => {
   let eventID = Router.currentRoute.value.params.id;
-  console.log(Router.currentRoute.value.params);
   event.value = store.events.find(({ title }) => {
     title = title.toLowerCase().split(' ').join('').split('-').join('');
     eventID = eventID.toLowerCase().split(' ').join('').split('-').join('');
